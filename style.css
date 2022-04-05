@@ -1,3 +1,19 @@
-p {
-    font: Normal 15px Arial;
+div{
+    font-family: Arial;
+}
+
+.rodape {
+    text-align: center;
+    font-family: Arial;
+}
+
+
+#email:hover {
+    text-decoration: underline;
+    color: #00BFFF;
+}
+    
+#github:hover {
+    text-decoration: underline;
+    color: #00BFFF;
 }
