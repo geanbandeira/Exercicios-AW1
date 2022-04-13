@@ -1,0 +1,19 @@
+table{
+    border: 1px;
+}
+th, td{
+    padding:5px;
+    background-color:rgb(212, 212, 212);
+    width: 100px;
+}
+.roww, .coll{
+    text-align: center;
+    font-size: 30px;
+
+}
+.tres,.dez,.dezessete,.vinteequatro,.trintaeum{
+    color: red;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}

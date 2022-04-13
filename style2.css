@@ -1,0 +1,11 @@
+
+table{
+    border: none;
+}
+th, td{
+    padding:5px;
+    background-color: rgb(96, 179, 226);
+}
+.car{
+    text-align: center;
+}

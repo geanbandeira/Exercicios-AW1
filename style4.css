@@ -1,0 +1,26 @@
+table{
+    border: 1px;
+}
+th, td{
+    padding:5px;
+    
+    width: 100px;
+}
+.roww, .coll{
+    text-align: center;
+    font-size: 30px;
+
+}
+.rodape{
+    text-align: center;
+}
+
+body{
+    font-family: Arial;
+    text-align: justify;
+    
+}
+.enviar {
+    width: 100px;
+    height: 30px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style4.css">
+    <title>Exercicio 4</title>
+<link>
+</head>
+<body>
+        <h1>Identificação do Usuário</h1>
+        <form action="http://google.com">
+        <p>Nome:</p>
+        <input type="text" name="nome" size="15" maxlength="30" required/>
+        <p>Senha:</p>
+        <input type="password" name="password" size="15" maxlength="30" required/>
+        <p>CPF:</p>
+        <input type="text" name="cpf" size="15" maxlength="11" required/>
+        <p>Sexo:</p>
+        <input id="feminino" type="radio" name="genero" value="f" required/>
+        <label for="feminino">Feminino</label>
+        <input id="masculino" type="radio" name="genero" value="m" required/> 
+        <label for="masculino">Masculino</label>
+        <br> <br>
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" nome="data" required/>
+        
+        
+        <p>Estado Civil:</p>
+        <select name="estado-civil" required>
+                <option value="Solteiro(a)">Solteiro(a)</option>
+                <option value="Casado(a)">Casado(a)</option>
+                <option value="Divorciado(a)">Divorciado(a)</option>
+                <option value="Viuvo(a)">Viúvo(a)</option>
+            </select>
+        <p>Escolaridade:</p>
+        <select name="escolaridade" >
+                <option value="Sem escolaridade">Sem escolaridade</option>
+                <option value="Ensino fundamental 1">Ensino fundamental 1</option>
+                <option value="Ensino fundamental 2">Ensino fundamental 2</option>
+                <option value="Ensino médio completo">Ensino médio completo</option>
+                <option value="Graduado(a)">Graduado(a)</option>
+            </select>
+        <p>Ocupação Principal:</p>
+        <select name="profissao">
+                <option value="desempregado">desempregado(a)</option>
+                <option value="autônomo">autônomo(a)</option>
+                <option value="CLT">CLT</option>
+                <option value="aposentado(a)">aposentado(a)</option>
+            </select>
+        <p>Renda Mensal:</p>
+        <select name="salario">
+                <option value=" Até R$1,500,00">Até R$1,500,00</option>
+                <option value="Até R$3,000,00">Até R$3,000,00</option>
+                <option value="Até R$5,00,00">Até R$5,000,00</option>
+                <option value="Mais de R$5,000,00">Mais de R$5,000,00</option>
+            </select>
+        <p>Número de dependentes:</p>
+        <select name="pessoas">
+                <option value="nenhum">nenhum</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3 ou mais">3 ou mais</option>
+            </select><br> <br>
+
+            <label>Telefone:</label><br>
+        <input type="text" name="tel" size="15" maxlength="14" required/><br><br>
+
+        <label>E-mail: </label><br>
+        <input required type="email" name="email" required></label><br>
+
+        <h1>Localização</h1>
+        <table>
+        <tr>
+                <td>
+        <label for="estado_id">Estado</label><br>
+        <select name="estado" id="estado_id">
+                <optgroup>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="MG">Minas Gerais</option>
+                </optgroup>
+        </select>
+        </td>
+        <td>
+                <label for="cidade_id">Cidade</label><br>
+        <select name="cidade" id="cidade_id">
+                <optgroup>
+                        <option value="mo">Moema</option>
+                        <option value="ca">Campinas</option>
+                        <option value="it">Itaquera</option>
+                        <option value="cp">Capão Redondo</option>
+                        <option value="dc">Duque de Caxias</option>
+                        <option value="bh">Belo Horizonte</option>
+                        <option value="gu">Guarapari </option>
+                </optgroup>
+
+        </select>
+        </td>
+        </tr>
+        </table>
+
+        <h1>Mensagem do Usuário</h1>
+        <p>Grau de Urgência</p>
+        <select name="graudeurgencia">
+                <option value="Emergência">Emergência</option>
+                <option value="Urgência">Urgência</option>
+                <option value="Pouco urgente">Pouco urgente</option>
+                <option value="Não urgente">Não urgente</option>
+        </select> <br><br>
+        <textarea name="coments" cols="16" rows="5"> Mensagem...</textarea> 
+        <p>Reportar erro:</p>
+        <input type="file" name="report" />
+        <input class="upload" type="submit" value="Upload"/>
+        <input type="submit" name="Limpar" value="Limpar">
+        <br><br>
+
+        <input class="enviar" type="submit" name="Enviar" value="Enviar">
+        <br><br><br>
+
+        </form>
+        <footer>
+        <p class="rodape">&copy; Gean Bandeira </p>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style2.css">
+    <title>Exercicio 2</title>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">2050</th>
+            <th scope="col">2051</th>
+        </tr>
+        <tr>
+            <th scope="row">Melhores Carros Voadores</th>
+            <td>Nixzan</td>
+            <td>Golplain</td>
+        </tr>
+        <tr>
+            <th scope="row">Melhores Carros autônomos</th>
+            <td>Golf-auto</td>
+            <td>Ecoiam</td>
+        </tr>
+        <tr>
+            <th scope="row">Melhores Carros Custo/beneficios</th>
+            <td colspan="2" class="car">Teslapro</td>
+        </tr>
+    </table>
+
+    <form action="http://www.geanband.com/login.php">
+        <p>Nome:<br>
+        <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+        <p>Nome do seu carro:<br>
+            <input type="text" name="username" size="15" maxlength="30" required/>
+        </p>
+        <hr>
+
+        <p>Selecione seu carro preferido: </p>
+        <input type="radio" name="carro" value="Nixzan" checked="checked"/> Nixzan
+        <input type="radio" name="carro" value="Golplain"/> Golplain
+        <input type="radio" name="carro" value="Golf-auto"/> Golf-auto
+        <input type="radio" name="carro" value="Ecoiam"/> Ecoiam
+        <hr>
+
+        <p>Selecio a marca do seu carro</p>
+        <select name="marca">
+            <option value="Testa">Tesla</option>
+            <option value="Eco">Eco</option>
+            <option value="Systemgold">Systemgold</option>
+            <option value="Anonymouscar">Anonymouscar</option>
+        </select>
+
+        <hr>
+        <p>Upload: Foto do seu carro</p>
+        <input type="file" name="ft-carro" />
+        <input type="submit" value="Enviar" />
+        <br>
+        <br>
+        <hr>
+
+        <fieldset class="gg">
+        <legend>Detalhes de contato:</legend>
+        <label>Celular:<br><input type="text" name="mobile" /></label><br>
+        <label>E-mail: <br><input type="text" name="email" /></label>
+        <input type="submit" name="Inscreva-se" value="Inscreva-se"/><br>
+        </fieldset>
+
+    </form>
+</body>
+</html>

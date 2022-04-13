@@ -1,19 +1,7 @@
-div{
-    font-family: Arial;
+table{
+    border: none;
 }
-
-.rodape {
-    text-align: center;
-    font-family: Arial;
-}
-
-
-#email:hover {
-    text-decoration: underline;
-    color: #00BFFF;
-}
-    
-#github:hover {
-    text-decoration: underline;
-    color: #00BFFF;
+th, td{
+    padding:5px;
+    background-color: aquamarine;
 }
