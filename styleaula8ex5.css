@@ -1,0 +1,75 @@
+.letsgo{
+    display: grid;
+    grid-template-columns: 400px 380px auto;
+    grid-gap: 1px;
+    color: rgb(0, 0, 0);
+    border: 1px;
+    border-style: solid;
+    border-color: green;
+}
+  
+.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito{
+    display: grid;
+    grid-template-columns: 400px 380px auto;
+    grid-gap: 1px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px;
+    border-style: solid;
+    border-color: green;
+}
+
+.box{
+    
+    margin: 2px;
+    padding: 1px;
+    font-size: 150%;
+    font-family: Arial;
+    border: 1px;
+}
+
+
+.campeoes{
+    background-color: yellow;
+    color: green;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.a, .b, .c, .e, .h, .k, .n, .q, .t, .w, .z {
+    text-align: center;
+    
+}
+
+.f, .i, .l, .o, .r, .u, .x, .z2{
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+
+.a, .b, .c {
+    font-weight: bold;
+}
+
+.um:hover, .dois:hover, .tres:hover, .quatro:hover,
+.cinco:hover, .seis:hover, .sete:hover, .oito:hover{
+    background-color: yellow;
+    color: green ;
+    font-family: Arial;
+}
+
+.a, .b, .c, .d, .e, .f, .g , .h, .i, .j, .k, .l, .m, .n,
+ .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z, .z2{
+    border: 1px solid green;
+    margin: 0;
+    border-left: 0;
+}
+
+.img{
+    height: 24px;
+    position: absolute;
+    left: 350px
+}

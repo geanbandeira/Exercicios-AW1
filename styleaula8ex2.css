@@ -1,0 +1,22 @@
+.stl1:hover{
+    color: rgb(0, 217, 255);
+}
+
+.stl2:hover{
+    font-size: 30px;
+}
+
+.stl3:hover{
+    background-color: aqua;
+}
+
+.stl4:hover{
+    font-family: Verdana;
+}
+
+.stl5:hover{
+    border: 8px;
+    border-style: groove;
+    border-color: cyan;
+}
+

@@ -1,0 +1,16 @@
+.pazul:hover{
+    color: rgb(0, 51, 255);
+    text-decoration: none;
+}
+
+.pazul2:hover{
+    color: rgb(0, 51, 255);
+    text-decoration: none;
+}
+.titulovermelho:hover{
+    color: red;
+}
+
+body{
+    font-family: Arial;
+}
