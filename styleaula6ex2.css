@@ -1,0 +1,281 @@
+.wrapper {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-auto-rows: 100px;
+    background-color: rgba(255, 255, 255, 0.867);
+    gap: 15px 7px;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+  
+.boxhei {
+    grid-area: header;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(98, 200, 98);
+}
+
+.boxnav {
+    grid-area: nav;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(28, 131, 194);
+    
+}
+
+.boxasi {
+    grid-area: aside;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(255, 0, 0);
+    position: fixed ;
+    right: 0;
+    top: 120px;
+    
+    
+}
+
+.boxsec{
+    grid-area: section;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 11;
+    display: grid;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(68, 0, 255);
+    margin-bottom: 55px;
+}
+
+.articlemain {
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 15;
+    border-style: dashed;
+    border-color: rgb(255, 136, 0);
+    margin: 10px 10px 10px;
+    
+}
+
+figure{
+    display: grid;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(255, 0, 157);
+    text-align: center;
+    margin-left: 40px;
+    font-size: 10pt;
+    font-family: sans-serif;
+
+}
+
+.imagem{
+    height: 250px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.boxsec2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 11;
+    grid-row-end: 13;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(68, 0, 255);
+    margin-top: -70px;
+    margin-bottom: 55px;
+    
+}
+
+.foo {
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 13;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(47, 47, 47);
+    margin-top: -65px;
+    background: #e8e8e8;
+}
+
+img{
+    width: 40px;
+    padding: 10px;
+}
+
+body, ul, li,p{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    list-style: none;
+    display: grid;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.header{
+    background: rgb(201, 230, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+    background: #009ad7;
+}
+
+.fotoaside { 
+    border: 1px solid rgb(39, 39, 39);
+    height: 300px;
+    width: 280px;
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+.titulolink{
+    margin-left: 15px;
+    margin-bottom: -5px;
+}
+.plink{
+    margin: 15px 15px 15px;
+}
+
+p{
+    font-family: Arial;
+    text-align: justify;
+    font-size: 12pt;
+
+}
+
+.span{
+    color: rgb(107, 107, 107);
+}
+
+.fotoarticle1{
+    float: left;
+    margin-top: 2px;
+}
+.fotoarticle2{
+    float: right;
+    margin-top: 2px;
+}
+
+.articledata{
+    color: rgb(107, 107, 107);
+    margin-top: -30px;
+    font-family: sans-serif;
+    font-size: 10pt;
+}
+
+.nomedata1{
+    float: left;
+    margin-top: -30px;
+}
+
+.nomedata2{
+    float: right;
+    margin-top: -30px;
+}
+
+.articledata2{
+    color: rgb(107, 107, 107);
+    font-family: sans-serif;
+    font-size: 10pt;
+    margin-top: -30px;
+}
+
+.articletexto1{
+    margin-left: 60px;
+    margin-top: -30px;
+   
+}
+
+.articletexto2{
+    margin-right: 60px;
+    margin-top: -50px;
+}
+
+.article2{
+    border-style: dashed;
+    border-color: rgb(255, 136, 0);
+    margin: 10px 10px 10px;
+}
+
+.article3{
+    border-style: dashed;
+    border-color: rgb(255, 136, 0);
+    margin: 10px 10px 10px;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+.articlesection2{
+    border-style: dashed;
+    border-color: rgb(255, 136, 0);
+    margin: 10px 10px 10px;
+}
+.span2{
+    margin-top: -20px;
+}
+
+.psection2{
+    margin-top: 20px;
+}
+
+.tab1, .tab2{
+    width: 360px;
+    
+    background: #e8e8e8;
+    display: inline-block;
+}
+
+ul{
+    margin-left: 12px;
+}
+
+.tab3{
+    margin-left: 40px;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-table;
+
+}
+
+.youtube{
+    margin-top: 00px;
+}
+
