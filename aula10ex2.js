@@ -22,11 +22,8 @@ listaMotoristas.push(motorista);
 var resposta = prompt("Faz 90 dias ou menos que aconteceu a sua infração de transito?");
 
 if(resposta == 'ok' || resposta == 'sim'|| resposta == 'SIM' || resposta == 's') {
-    //nao consegui colocar o desconto
-    listaMotoristas = (listaMotoristas / 100) * 0.20;
-    
-imprimir(listaMotoristas)
-
+    percentual1 = valorMulta- ((valorMulta *20) / 100)
+    document.write("Multa com desconto R$", percentual1);
 } else {    
 
 imprimir(listaMotoristas)
